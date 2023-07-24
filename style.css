@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+.box:nth-child(1) {
+  background-color: teal;
+}
+.box:nth-child(2) {
+  position: relative;
+  top: 70px;
+  right: 75px;
+  z-index: 1;
+  background-color: orange;
+}
+.box:nth-child(3) {
+  position: relative;
+  top: 140px;
+  right: 150px;
+  background-color: palevioletred;
+}
